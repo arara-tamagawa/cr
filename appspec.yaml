@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - yoppy-test:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "yoppy-test"
+        Alias: "yoppy-test-alias"
+        CurrentVersion: "1"
+        TargetVersion: "1"
